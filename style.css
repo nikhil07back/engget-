@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+.container{
+
+    height: 100vh;
+    display: flex;
+}
+
+
+.img-part{
+
+    height: 100%;
+    width: 65%;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+.img-part h1{
+
+    margin: 15px;
+    font-size: 130px;
+    font-family: 'EB Garamond', serif;
+  
+}
+
+.img-part h2{
+    margin: 15px;
+    font-size: 40px;
+}
+
+
+.img-part p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* form part in the section */
+
+.form-part{
+
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+
+.form-part img{
+
+    height: 35px;
+    margin-bottom: 40px;
+
+}
+
+.form-part form{
+
+    height: 30%;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.form-part input{
+
+
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 5px;
+
+
+}
+
+.btn-sm{
+    height: 45px;
+    border: none;
+    background-color: #317dbb;
+    color: #fff;
+    font-size: 20px;
+}
+
+.create-btn{
+    height: 45px;
+    width: 100%;
+    background: none;
+    border: 1px solid #3399CC;
+    font-size: 24px;
+    color: #3399CC;
+    margin-bottom: 20px;
+}
+
+.google-btn{
+    height: 45px;
+    width: 100%;
+    background: none;
+    border: 1px solid black;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.form-part span{
+
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.a{
+
+    margin-top: 60px;
+    font-size: 14px;
+
+}
+
+@media(max-width:768px){
+
+    .img-part{
+        display: none;
+    }
+
+    .form-part{
+        width: 100%;
+    }
+
+}
